@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal Prompt</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <input type="radio" id="todayDate" name="dateOption" value="today" checked> <label for="todayDate">Today's Date</label>
+    <input type="radio" id="customDate" name="dateOption" value="custom"> <label for="customDate">Custom Date</label>
+    <input type="date" id="datePicker" style="display: none;">
+    <button id="submitDate">Submit</button>
+    <p>Date: <span id="resultDate"></span></p>
+    <p>Prompt 1: <span id="resultPrompt1"></span></p>
+    <p>Prompt 2: <span id="resultPrompt2"></span></p>
+    <p>Prompt 3: <span id="resultPrompt3"></span></p>
+    <p><span id="resultGoals"></span></p>
+    <p>Also be sure to journal any extra thoughts and reminders</p>
+</body>
+</html>
