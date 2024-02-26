@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('datePicker').style.display = 'block';
     });
 
-    // Event listener to hide date picker when 'Today\'s Date' is selected
+    // Event listener to hide date picker when 'Today's Date' is selected
     document.getElementById('todayDate').addEventListener('change', function() {
         document.getElementById('datePicker').style.display = 'none';
     });
